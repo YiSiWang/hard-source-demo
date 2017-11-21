@@ -65,26 +65,44 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__test_common_js__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__test_common_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__test_common_js__);
-// import esm from './test.esm.js'
 
-// console.log(esm)
-console.log(__WEBPACK_IMPORTED_MODULE_0__test_common_js___default.a)
 
+var _testEsm = __webpack_require__(1);
+
+var _testEsm2 = _interopRequireDefault(_testEsm);
+
+var _testCommon = __webpack_require__(2);
+
+var _testCommon2 = _interopRequireDefault(_testCommon);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+console.log(_testEsm2.default);
+console.log(_testCommon2.default);
 
 /***/ }),
-/* 1 */,
-/* 2 */,
-/* 3 */
-/***/ (function(module, exports) {
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = 'commonjs'
+"use strict";
 
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = 'es module';
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = 'commonjs';
 
 /***/ })
 /******/ ]);
